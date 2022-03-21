@@ -5,7 +5,6 @@
 @section('content')
 <h1>
   Listagem do Usuário {{ $user->name }}
-  (<a href="{{ route('users.create') }}">+</a>)
 </h1>
 
 <ul>
