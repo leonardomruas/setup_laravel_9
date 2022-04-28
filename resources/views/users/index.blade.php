@@ -41,7 +41,7 @@
       <tbody>
     @foreach ($users as $user)
         <tr>
-            <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">{{ $user->name }}</td>
+            <td class="px-5  border-b border-gray-200 bg-white text-sm">{{ $user->name }}</td>
             <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">{{ $user->email }}</td>
             <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                 <a href="{{ route('users.edit', $user->id) }}" class="bg-green-200 rounded-full py-2 px-6">Editar</a>
