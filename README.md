@@ -8,7 +8,7 @@ https://github.com/leonardomruas/setup_laravel_9.git
 ```
 
 ```sh
-cd laravel9/
+cd setup_laravel-9/
 ```
 
 
